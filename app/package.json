@@ -1,0 +1,23 @@
+{
+  "name": "markdowner",
+  "main": "./views/index.html",
+  "version": "0.0.1",
+  "single-instance": true,
+  "window": {
+    "title": "markdowner",
+    "width": 1024,
+    "height": 650,
+    "min_width": 1024,
+    "min_height": 650,
+    "max_width": 1024,
+    "toolbar": true
+  },
+  "chromium-args": "--child-clean-exit",
+  "dependencies": {
+    "markdown": "~0.5.0",
+    "jquery": "~2.1.0",
+    "backbone": "~1.1.2",
+    "underscore": "~1.6.0",
+    "node-uuid": "~1.4.1"
+  }
+}

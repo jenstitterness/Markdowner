@@ -1,0 +1,46 @@
+#downerContainer {
+	width: 100%;
+	height: 100%;
+}
+
+#listPanel {
+	width: 250px;
+	background: #F2FFAE;
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	display: inline;
+}
+
+#inputPanel {
+	padding-left: 5px;
+	width: 38%;
+	display: inline;
+	position: absolute;
+	left: 100px;
+	top: 0;
+	bottom: 0;
+}
+
+#mdTitle {
+	width: 100%;
+}
+
+#mdEditor {
+	height: 100%;
+	width: 100%;
+	outline: none;
+	border-left: 5px black;
+}
+
+#outputPanel {
+	width: 50%;
+	/*position: relative;*/
+	display: inline;
+	position: absolute;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	overflow: scroll;
+}
