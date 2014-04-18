@@ -7,10 +7,9 @@
     "title": "markdowner",
     "width": 1024,
     "height": 650,
-    "min_width": 1024,
-    "min_height": 650,
-    "max_width": 1024,
-    "toolbar": true
+    "min_width": 900,
+    "min_height": 350,
+    "toolbar": false
   },
   "chromium-args": "--child-clean-exit",
   "dependencies": {

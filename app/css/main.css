@@ -4,7 +4,7 @@
 }
 
 #listPanel {
-	width: 250px;
+	width: 200px;
 	background: #F2FFAE;
 	position: absolute;
 	left: 0;
@@ -18,7 +18,7 @@
 	width: 38%;
 	display: inline;
 	position: absolute;
-	left: 100px;
+	left: 200px;
 	top: 0;
 	bottom: 0;
 }
@@ -35,7 +35,7 @@
 }
 
 #outputPanel {
-	width: 50%;
+	width: 35%;
 	/*position: relative;*/
 	display: inline;
 	position: absolute;
@@ -43,4 +43,14 @@
 	top: 0;
 	bottom: 0;
 	overflow: scroll;
+}
+
+#mdModel {
+	list-style-type: none;
+	padding: 0px;
+}
+
+#mdModel li {
+	border-bottom: 2px red dashed;
+	margin-bottom: 10px;
 }
